@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="radio_usage/hours <= 0.967\nsamples = 616\nvalue = [128, 488]\nclass = offline-music", fillcolor="#6db7ec"] ;
+1 [label="samples = 506\nvalue = [81, 425]\nclass = offline-music", fillcolor="#5fb0ea"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="navi_usage/hours <= -0.449\nsamples = 110\nvalue = [47, 63]\nclass = offline-music", fillcolor="#cde6f8"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="samples = 31\nvalue = [5, 26]\nclass = offline-music", fillcolor="#5fb0ea"] ;
+2 -> 3 ;
+4 [label="speed <= 1.362\nsamples = 79\nvalue = [42, 37]\nclass = online-music", fillcolor="#fcf0e7"] ;
+2 -> 4 ;
+5 [label="radio_usage/hours <= 1.585\nsamples = 62\nvalue = [41, 21]\nclass = online-music", fillcolor="#f2c29e"] ;
+4 -> 5 ;
+7 [label="samples = 40\nvalue = [21, 19]\nclass = online-music", fillcolor="#fdf3ec"] ;
+5 -> 7 ;
+8 [label="samples = 22\nvalue = [20, 2]\nclass = online-music", fillcolor="#e88e4d"] ;
+5 -> 8 ;
+6 [label="samples = 17\nvalue = [1, 16]\nclass = offline-music", fillcolor="#45a3e7"] ;
+4 -> 6 ;
+}
