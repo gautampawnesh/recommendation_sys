@@ -6,7 +6,7 @@ Dataset: Vehicle dataset
 
 Performances:
 
-First Header  | Second Header
+Algorithms  | Accuracy
 ------------- | -------------
 Naive Bayes  | 81.2
 Logistic Regression  | 81.5
