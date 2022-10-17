@@ -17,3 +17,4 @@ Gradient Boosting  | 79.9
 SVC  | 82.9
 Voting Classifier  | 83.2
 Neural Network FC  | 82.0
+
